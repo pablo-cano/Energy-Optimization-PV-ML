@@ -7,7 +7,7 @@ Proyecto Final de Bachelor:
 Autor: Pablo Felipe Cano Galán
 Descripción: Este código forma parte del trabajo de fin de grado (TFG), centrado en el desarrollo de modelos de machine learning para la predicción de momentos óptimos de carga y descarga de baterías en sistemas fotovoltaicos, con el fin de maximizar la eficiencia energética y la rentabilidad económica de dichos sistemas. El proyecto incluye la implementación de herramientas de simulación y una aplicación web para facilitar la gestión de sistemas fotovoltaicos.
 
-Fecha: [Incluir la fecha actual]
+Fecha: 07/09/2024
 """
 
 import requests
