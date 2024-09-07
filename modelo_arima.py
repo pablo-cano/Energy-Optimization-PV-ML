@@ -52,11 +52,11 @@ test_data[['G(i)', 'Predictions']].to_csv("predicciones_arima.csv")
 
 # Visualización de los resultados
 plt.figure(figsize=(12, 6))
-plt.plot(test_data.index, test_data["G(i)"], label="Actual")
+plt.plot(test_data.index, test_data["G(i)"], label="Datos Reales")
 plt.plot(test_data.index, test_data["Predictions"], label="Predicciones", color='red')
 plt.xlabel('Date')
 plt.ylabel('G(i)')
-plt.title('Actual vs Predicciones')
+plt.title('Predicciones vs Datos Reales')
 plt.legend()
 plt.show()
 
