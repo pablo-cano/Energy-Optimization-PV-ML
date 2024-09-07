@@ -19,7 +19,6 @@ capital_data = data[(data['capital'] == 'Albacete')]
 
 capital_data['datetime'] = pd.to_datetime((capital_data['day'] - 1) * 24 + capital_data['hour'], unit='h', origin='2023-01-01')
 capital_data.set_index('datetime', inplace=True)
-#capital_data.drop(columns=['day', 'hour','capital','slope','azimuth'], inplace=True)
 capital_data.drop(columns=['day', 'hour'], inplace=True)
 print(capital_data.head)
 capital_data.to_csv("little_typical_year_spain_corrected.csv")
