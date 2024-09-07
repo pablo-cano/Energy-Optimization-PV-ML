@@ -1,3 +1,15 @@
+"""
+Universitat Carlemany - Bachelor en Data Science
+
+Proyecto Final de Bachelor: 
+"Optimización Económica del Almacenamiento de Energía en Sistemas Fotovoltaicos Mediante Algoritmos de Machine Learning"
+
+Autor: Pablo Felipe Cano Galán
+Descripción: Este código forma parte del trabajo de fin de grado (TFB), centrado en el desarrollo de modelos de machine learning para la predicción de momentos óptimos de carga y descarga de baterías en sistemas fotovoltaicos, con el fin de maximizar la eficiencia energética y la rentabilidad económica de dichos sistemas. El proyecto incluye la implementación de herramientas de simulación y una aplicación web para facilitar la gestión de sistemas fotovoltaicos.
+
+Fecha: 07/09/2024
+"""
+
 import requests
 import pandas as pd
 from datetime import datetime
