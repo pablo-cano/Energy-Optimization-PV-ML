@@ -43,6 +43,7 @@ fig = px.line(df, x=df["datetime"], y="T2m",
 fig.show()
 
 Prueba_Dickey_Fuller(df["G(i)"],"G(i)")
+Prueba_Dickey_Fuller(df["T2m"],"T2m")
 
 df1=df.copy()
 df1['G(i)'] = df['G(i)'].diff()
