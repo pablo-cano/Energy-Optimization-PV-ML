@@ -1,6 +1,6 @@
 # Optimización Económica del Almacenamiento de Energía en Sistemas Fotovoltaicos Mediante Algoritmos de Machine Learning
 
-![Logo EnergyPV](EnergyPV.png)
+![Logo EnergyPV](LogoProyecto.bmp)
 
 ## Introducción
 
