@@ -65,7 +65,7 @@ with open('prophet_model_perfil.pkl', 'wb') as pkl_file:
     pickle.dump(model, pkl_file)
 
 # Guardar las predicciones en un archivo CSV
-test_data[['y', 'Predictions']].to_csv("predicciones_perfil_prophet.csv")
+test_data[['y', 'Predictions']].to_csv("prophet_model_perfil.csv")
 
 # Visualización de los resultados
 plt.figure(figsize=(12, 6))
