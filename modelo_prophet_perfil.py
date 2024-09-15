@@ -61,11 +61,11 @@ rmse_value = np.sqrt(mean_squared_error(test_data['y'], test_data['Predictions']
 print(f'RMSE: {rmse_value}')
 
 # Guardar el modelo en un archivo
-with open('prophet_model_precios.pkl', 'wb') as pkl_file:
+with open('prophet_model_perfil.pkl', 'wb') as pkl_file:
     pickle.dump(model, pkl_file)
 
 # Guardar las predicciones en un archivo CSV
-test_data[['y', 'Predictions']].to_csv("predicciones_prophet.csv")
+test_data[['y', 'Predictions']].to_csv("predicciones_perfil_prophet.csv")
 
 # Visualización de los resultados
 plt.figure(figsize=(12, 6))
