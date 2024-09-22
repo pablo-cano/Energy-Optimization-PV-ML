@@ -90,3 +90,9 @@ Este proyecto demuestra el potencial de la inteligencia artificial para transfor
     
 16. **Comparativa de modelos irradiación**  
     [comparativa_modelos.py](https://github.com/pablo-cano/Energy-Optimization-PV-ML/blob/main/comparativa_modelos.py)
+
+17. **Código de la REST API implementada**
+    [README.md](https://github.com/pablo-cano/Energy-Optimization-PV-ML/tree/main/api)
+
+18. **Código de la aplicación Web desarrollada en Mendix**
+    [README.md](https://github.com/pablo-cano/Energy-Optimization-PV-ML/tree/main/web)
